@@ -42,18 +42,18 @@ img {
     width: 50%;
   }
 
-.dino-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.dino :nth-child(2){
-  display: block;
-}
+  .dino :nth-child(2){
+    display: block;
+  }
 
-.dino :nth-child(4){
-  display: block;
-}
+  .dino :nth-child(4){
+    display: block;
+  }
 
 }
 
@@ -63,13 +63,13 @@ img {
     width: 33.3333%;
   }
 
-.dino-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-.dino:nth-child(1) {
-  display:none;
-}
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dino:nth-child(1) {
+    display:none;
+  }
 
 }
 
@@ -80,13 +80,13 @@ img {
     width: 25%;
   }
 
-  img:first-child {
-    display:none;
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-.dino-wrap {
-  display: flex;
-  flex-wrap: wrap;
+.dino:nth-child(1) {
+  display:block;
 }
-}
+
 }
